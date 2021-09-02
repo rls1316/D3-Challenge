@@ -16,3 +16,6 @@ Task: Sift through information from the U.S. Census Bureau and the Behavioral Ri
   * Pull in the data from data.csv - use the d3.csv function
 * Include state abbreviations in the circles
 * Create and situate your axes and labels to the left and bottom of the chart
+
+## Final Output
+Review the completed work [here.](https://rls1316.github.io/D3-Challenge/)

@@ -49,8 +49,8 @@ function renderXAxis(newXScale, xAxis) {
 function yScale(csvData, chosenYAxis, svgHeight) {
 
     var yLinearScale = d3.scaleLinear()
-        .domain([(d3.min(csvData, d => d[chosenYAxis]) * 0.),
-            d3.max(csvData, d => d[chosenYAxis]) * 1.15])
+        .domain([(d3.min(csvData, d => d[chosenYAxis]) * 0.8),
+            d3.max(csvData, d => d[chosenYAxis]) * 1.1])
         .range([svgHeight, 0]);
     return yLinearScale;
 };
